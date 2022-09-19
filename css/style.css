@@ -149,6 +149,38 @@ padding: 2rem;
 
 }
 
+/* SETTING SECTION 3  */
+
+
+.section-3{
+
+  text-align: center;
+
+}
+
+.card-s3{
+
+background-color: #9792e4;
+border-radius: 20px;
+
+}
+
+.card-s3:first-child{
+
+
+background-color: var(--secondary-col-light);
+
+}
+
+.card-s3 img {
+
+
+    width: 50vw;
+    height: 50vw;
+    border-radius: 50%;
+  
+} 
+
 
 
 
@@ -191,6 +223,24 @@ gap: 1.5rem;
     width: calc(100% / 3 - ( 1.5rem * 2 / 3 ) );    
 
 }
+
+
+/* SETTING Section 3  */
+
+
+.card-s3{
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+
+
+
+
+
 
 
 
