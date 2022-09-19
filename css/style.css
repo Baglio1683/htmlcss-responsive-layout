@@ -80,6 +80,7 @@ header ul{
 header ul li {
 
     display: inline-block;
+    margin-left: 1rem;
 
 }
 
@@ -88,6 +89,16 @@ header ul li {
     color: white;
 
  }
+
+.menu-list a{
+
+color: #fff;
+text-decoration: none;
+
+} 
+
+
+
 
 
 /* Setting section1 */
@@ -425,4 +436,25 @@ width: 50%;
 
 }
 
+.text-black{
 
+ color: #111;   
+
+}
+
+.back-white{
+
+background-color: var(--white-col);
+
+}
+
+
+.btn{
+
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  border-radius: 1rem;
+
+}
