@@ -367,11 +367,57 @@ margin-top: 10px;
 
 .card-s5 img{
 
-    width: 50vw;
-    height: 50vw;
+    width: 20vw;
+    height: 20vw;
     border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.card-s5 p{
+
+margin-top: 15px;
+margin-bottom: 50px;
+line-height: 2rem;
 
 }
+
+.card-s5 span {
+
+   display: inline-block;
+   margin-top: 20px;
+
+}
+
+.card-s5 h3{
+
+    font-size: x-large;
+    width: 50%;
+
+}
+
+.img-comm{
+
+position: relative;
+width: 50%;
+
+}
+
+
+
+.fa-quote-left:before{
+    
+    position: absolute;
+    top: 0px;
+    position: absolute;
+    left: 16vw;
+    display: inline-block;
+    transform: scale(3.5);
+
+}
+
+
+
+
 
 /* SETTING SECTION 6  */
 
@@ -478,17 +524,35 @@ margin-right: 10px;
 
 /* SETTING SECTION 5 */
 
+
+
 .card-s5:first-child{
 
-  width: 70%;
+  width: 90%;
 
 }
 
-.section-5{
+.section-5 .container{
 
 display: flex;
+column-gap: 40px;
 
 }
+
+.card-s5:last-child{
+
+display: flex;
+justify-content: flex-end
+
+}
+
+.card-s5:last-child div{
+
+width: 90%; 
+
+}
+
+
 
 
 
