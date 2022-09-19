@@ -1,0 +1,46 @@
+/* DEFAULT  */
+
+*{    
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+/* ROOT Rules*/
+:root{
+
+    --primary-col: #0884fd; 
+    --primary-col-light: #b5ddff; 
+    --secondary-col: #9792e4; 
+    --secondary-col-light: #d5d4f4;
+     
+     --text-col: #111; 
+     --white-col: #fff; 
+     --dark-gray: #333; 
+
+}
+
+
+
+/* HEADER SETINGS  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
