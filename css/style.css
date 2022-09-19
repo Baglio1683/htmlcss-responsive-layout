@@ -228,16 +228,22 @@ margin-bottom: 50px;
 
 .section-3{
 
+margin-top: 20px;
   width: 100%;  
   text-align: center;
-  background-color: #9792e4;
+ 
 
 }
+
+
 
 .card-s3{
 
 
 border-radius: 20px;
+background-color: #9792e4;
+padding: 10px;
+margin-bottom: 20px;
 
 }
 
@@ -245,14 +251,45 @@ border-radius: 20px;
 
 
 background-color: var(--secondary-col-light);
+display: contents;
+
 
 }
+
+.card-s3:first-child h5, .card-s3:first-child h2 , .card-s3:first-child p {
+
+margin-bottom: 10px;
+
+} 
+
+.card-s3:first-child p{
+
+  color: #111;
+
+}
+
+
+
+
+
+.card-s3 h3 , .card-s3 p {
+
+ color: #fff;
+
+ margin-bottom: 10px;
+
+
+}
+
+
+
+
 
 .card-s3 img {
 
 
-    width: 50vw;
-    height: 50vw;
+    width: 20vw;
+    height: 20vw;
     border-radius: 50%;
   
 } 
@@ -358,8 +395,24 @@ gap: 1.5rem;
 display: flex;
 justify-content: center;
 align-items: center;
+text-align: left;
 
 }
+
+.card-s3:first-child{
+
+text-align: center;    
+
+}
+
+.card-s3 img {
+
+margin-right: 10px;
+
+
+}
+
+
 
 /* SETTING SECTION 4  */
 
@@ -533,11 +586,20 @@ width: 50%;
 
 }
 
+
 .text-black{
 
- color: #111;   
+  color: #111;
 
 }
+
+.text-gray{
+
+ color: var(--dark-gray);
+
+}
+
+
 
 .back-white{
 
@@ -586,4 +648,10 @@ background-color: var(--white-col);
    text-align: center;
     background-color: #9792e4;
     
+}
+
+.text-9792e4{
+
+  color: #9792e4;
+
 }
