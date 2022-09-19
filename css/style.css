@@ -51,7 +51,6 @@ header{
     z-index: 99;
     background-color: #0884fd;
 
-
 }
 
 .container{
@@ -86,6 +85,48 @@ header ul li {
  }
 
 
+/* Setting section1 */
+
+.section-1{
+
+    position: relative;
+    top: 15vh; 
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+    /* debug  */
+    background-color: lightpink;
+
+}
+
+.card{
+     
+     padding: 1.5rem;
+     width: 100%;  
+     border-radius: 10px;
+     text-align: center;
+     line-height: 1.8rem;
+     background-color: var(--primary-col-light);
+  
+    /* debug */
+     border: 1px solid black;
+
+}
+
+
+.card:first-child{
+
+text-align: left;
+
+}
+
+
 
 
 
@@ -94,6 +135,37 @@ header ul li {
 /* MEDIA QUERY TABLET 768px  */
 @media  screen and (min-width: 768px) {
     
+
+/* Setting section-1 */
+
+
+.section-1{
+
+gap: 1.5rem;
+
+
+}
+
+.card:first-child{
+
+    width: calc(100% / 3 * 2 - 1.5rem / 3 );
+
+
+}
+
+
+.card{
+
+    width: calc(100% / 3 - ( 1.5rem * 2 / 3 ) );    
+
+}
+
+
+
+
+
+
+
 
 
 
