@@ -200,7 +200,22 @@ background-color: var(--secondary-col-light);
 }
 
 
+/* SETTING SECTION 5  */
 
+
+.section-5{
+
+    margin-top: 50px;
+
+}
+
+.card-s5 img{
+
+    width: 50vw;
+    height: 50vw;
+    border-radius: 50%;
+
+}
 
 
 
@@ -265,6 +280,20 @@ align-items: center;
 
 }
 
+
+/* SETTING SECTION 5 */
+
+.card-s5:first-child{
+
+  width: 70%;
+
+}
+
+.section-5{
+
+display: flex;
+
+}
 
 
 
