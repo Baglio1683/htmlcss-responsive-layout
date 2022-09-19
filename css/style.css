@@ -66,7 +66,7 @@ nav{
     width: 90%;
     height: 100%;
     margin: 0 auto;
-    max-width: 768px;
+    max-width: 950px;
 
 }
 
@@ -116,31 +116,73 @@ text-decoration: none;
     margin-top: 1rem;
     margin-bottom: 10rem;
 
-    /* debug  */
-    background-color: lightpink;
-
 }
 
 .card{
      
      padding: 1.5rem;
      width: 100%;  
-     border-radius: 10px;
+     border-radius: 30px;
      text-align: center;
      line-height: 1.8rem;
      background-color: var(--primary-col-light);
   
-    /* debug */
-     border: 1px solid black;
+}
+
+.card h2{
+
+  color: #0884fd;
+  margin-bottom: 20px;
 
 }
 
+.card p{
+
+margin-top: 20px;
+margin-bottom: 20px;
+
+}
 
 .card:first-child{
 
 text-align: left;
+padding-bottom: 0;
+display: flex;
+flex-wrap: wrap;
+align-items: flex-end;
 
 }
+
+.card div:last-child{
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    
+}
+
+
+
+
+
+.card img{
+
+ margin-top: 30px;
+
+}
+
+.fa-file-code:before , .fa-compass-drafting:before , .fa-laptop-code:before , .fa-bullhorn:before{
+
+  display: block;
+  transform: scale(4.5);
+  color: #0884fd;
+  padding-top: 10px;
+ margin-bottom: 60px;
+
+}
+
+
+
 
 
 /* SETTING SECTION 2  */
@@ -363,6 +405,29 @@ display: flex;
     }
 
 
+/* SETTING SECTION 1  */
+
+.card:first-child{
+
+   flex-wrap: nowrap;
+   align-items: inherit;
+
+}
+
+.card:first-child div{
+
+width: 50%;
+
+}
+
+.card:first-child div:last-child img {
+
+height: 90%;
+
+}
+
+
+
 /* SETTING section2  */
 
 
@@ -448,6 +513,11 @@ background-color: var(--white-col);
 
 }
 
+.back-blue{
+
+  background-color:#0884fd;  
+
+}
 
 .btn{
 
@@ -458,3 +528,18 @@ background-color: var(--white-col);
   border-radius: 1rem;
 
 }
+
+.no-line{
+
+  text-decoration: none;  
+
+}
+
+.btn-long{
+
+  padding-left: 4em;
+  padding-right: 4em;
+
+
+}
+
