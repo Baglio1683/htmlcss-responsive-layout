@@ -11,7 +11,7 @@
 html{
 
     font-family: 'PT Sans', sans-serif;
-
+    scroll-behavior: smooth;
 }
 
 img{
@@ -191,6 +191,7 @@ align-items: flex-end;
 
   background-color: var(--secondary-col);
 padding-bottom: 20px;
+
 
 }
 
