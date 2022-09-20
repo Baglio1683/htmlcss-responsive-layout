@@ -468,8 +468,19 @@ font-size: 70px;
 
 }
 
+.section-6 h3{
 
+  padding-left: 25%;
+  padding-right: 25%;
 
+}
+
+#cpy{
+
+  padding-right: 18%;
+  padding-left: 18%;
+
+}
 
 
 /* SETTING FOOTER  */
